@@ -1,0 +1,27 @@
+.vid{
+    color:white;
+    width: 500px;
+    height:400px;
+    padding: 15px;
+    transition: transform 100ms ease-in-out;
+}
+
+.vid:hover{
+    transform: scale(1.02);
+}
+.vid img{
+    height:300px;
+    object-fit: contain;
+    width:450px;
+
+}
+.vid>h2{
+    padding-top: 10px;
+
+}
+.para{
+    display: none;
+}
+.vid:hover>.para{
+    display: inline-flex;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.nav{
+    
+    
+    overflow-x: scroll;
+    padding:10px;
+    padding-left: 40px;
+    color: white;
+    
+    
+}
+.nav::-webkit-scrollbar{
+    display: none;
+
+}
+.nav >h4{
+    cursor: pointer;
+    margin:0,30px;
+    font-family: 400;
+    
+    opacity: 0.6;
+    transition: transform 50ms ease-in-out;
+    
+    
+
+}
+
+.nav >h4:hover{
+    opacity: 1;
+    transform: scale(1.3);
+}
